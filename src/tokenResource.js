@@ -1,5 +1,5 @@
 // @ts-check
-import jwt from 'jsonwebtoken'
+const jwt = require('jsonwebtoken');
 
 /** TokenResource is a constant that has the properties jsonwebtoken */
 const tokenResource = {
@@ -59,4 +59,4 @@ const tokenResource = {
         }
 }
 
-export default tokenResource;
+module.exports = tokenResource;
