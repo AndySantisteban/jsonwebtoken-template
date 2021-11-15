@@ -26,12 +26,12 @@ const expired={
 const varEnv="secret"
 
 # Create Token
-const toker = tokenResource.signJwt(user,expired,varEnv)
+const toker = useJwt.signJwt(user,expired,varEnv)
 
 console.log(toker)
 
 # Decodificed Token
-const decoded = tokenResource.verifyJwt(toker,varEnv)
+const decoded = useJwt.verifyJwt(toker,varEnv)
 
 console.log(decoded)
 
