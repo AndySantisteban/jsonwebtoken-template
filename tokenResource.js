@@ -60,4 +60,3 @@ const tokenResource = {
 }
 
 export default tokenResource
-
