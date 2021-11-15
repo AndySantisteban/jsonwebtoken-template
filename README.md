@@ -10,7 +10,7 @@ npm i jsonwebtoken-template
 
 ## Usage
 
-```python
+```javascript
 const useJwt = require ('jsonwebtoken-template')
 
 # Define Object
@@ -39,7 +39,7 @@ console.log(decoded)
 
 ## Version
 
-1.0.4
+1.0.6
 
 ## Author
 

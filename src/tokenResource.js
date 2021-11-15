@@ -50,6 +50,18 @@ const tokenResource = {
         /** @type {String} */ varEnv) => {
         // @ts-ignore
         return new Buffer.from(token, varEnv).toString('ascii');
+    },
+    /** sendTokenLocalStorage is a function that send token in Local Storage  */
+    sendTokenLocalStorage: (/** @type {string} */ token, /** @type {string} */ key) => {
+        localStorage.setItem(key, token);
+    },
+    /** sendTokenSessionStorage is a function that get token in Session Storage  */
+    sendTokenSessionStorage: (/** @type {string} */ token, /** @type {string} */ key) => {
+        sessionStorage.setItem(key, token);
+    },
+    /** getTokenLocalStorage is a function that get token in Local Storage  */
+    getTokenLocalStorage: (/** @type {string} */ key) => {
+        return localStorage.getItem(key);
     }
 }
 
