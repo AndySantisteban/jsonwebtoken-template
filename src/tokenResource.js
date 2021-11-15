@@ -59,4 +59,4 @@ const tokenResource = {
         }
 }
 
-export default tokenResource
+export default tokenResource;

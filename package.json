@@ -2,10 +2,10 @@
   "name": "jsonwebtoken-template",
   "version": "1.0.1",
   "description": "jsonwebtoken hooks",
-  "main": "tokenResource.js",
+  "main": "./src/tokenResource.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node tokenResource.js"
+    "dev": "node ./src/tokenResource.js"
   },
   "author": "Andy Santisteban",
   "license": "MIT",
