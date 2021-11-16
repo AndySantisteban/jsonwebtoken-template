@@ -1,6 +1,6 @@
 # jsonwebtoken-template
 
-Library that facilitates the use of jwt using reusable functions
+Library that facilitates the use of jwt using reusable functions from Frontend with React.js
 
 ## Installation
 
@@ -36,6 +36,25 @@ const decoded = useJwt.verifyJwt(toker,varEnv)
 console.log(decoded)
 
 ```
+
+If you want to add it to the browser's localStorage you can use the following example
+
+
+```javascript
+
+ sendTokenLocalStorage(key,token)
+
+```
+
+Si deseas agregarlo al sessionStorage del navegador puedes utilizar el siguiente ejemplo (no recomendable)
+
+```javascript
+
+
+ sendTokenSessionStorage(key,token)
+
+```
+
 
 ## Version
 
