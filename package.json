@@ -1,6 +1,6 @@
 {
   "name": "jsonwebtoken-template",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "jsonwebtoken hooks",
   "main": "./src/tokenResource.js",
   "scripts": {
