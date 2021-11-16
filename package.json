@@ -9,6 +9,8 @@
   },
   "author": "Andy Santisteban",
   "license": "MIT",
+  "url": "https://github.com/AndySantisteban/jsonwebtoken-template",
+  "email": "andyjosue160720@gmail.com",
   "dependencies": {
     "jsdoc": "^3.6.7",
     "jsonwebtoken": "^8.5.1"
