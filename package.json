@@ -1,5 +1,5 @@
 {
-  "name": "jsonwebtoken-template",
+  "name": "@AndySantisteban/jsonwebtoken-template",
   "version": "1.0.8",
   "description": "jsonwebtoken hooks",
   "main": "./src/tokenResource.js",
