@@ -7,12 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./src/tokenResource.js"
   },
-  "author": "Andy Santisteban",
+  "author": "AndySantisteban",
   "license": "MIT",
   "url": "https://github.com/AndySantisteban/jsonwebtoken-template",
   "email": "andyjosue160720@gmail.com",
   "dependencies": {
     "jsdoc": "^3.6.7",
     "jsonwebtoken": "^8.5.1"
-  }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/AndySantisteban/jsonwebtoken-template"
 }
